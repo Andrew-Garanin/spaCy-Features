@@ -24,9 +24,17 @@ Main features of the NLP library spaCy
 > pip install --no-build-isolation --editable . 		# compile and install spaCy
 ```
 
-Пакет, на котором специализируется данный скрипт - __ru_core_news_md__.
-Для того, чтобы загрузить пакет достаточно выполнить следующую команду: __> python -m spacy download ru_core_news_md__
-
+Пакет, на котором специализируется данный скрипт - __<span style="color:blue">ru_core_news_md</span>__.
+Для того, чтобы загрузить пакет достаточно выполнить следующую команду: 
+```console
+> python -m spacy download ru_core_news_md
+```
 При запуске скрипта необходимо указать единственный аргумент, отвечающий за функцию, которую по итогу выполнит скрипт.
-Пример запуска: __D:\Projects\PycharmProjects\spaCyFeatures>main.py 1__
-Более подробная информация об аргументе: __D:\Projects\PycharmProjects\spaCyFeatures>main.py -h__
+Пример запуска: 
+```console
+D:\Projects\PycharmProjects\spaCyFeatures>main.py 1
+```
+Более подробная информация об аргументе: 
+```console
+D:\Projects\PycharmProjects\spaCyFeatures>main.py -h
+```
