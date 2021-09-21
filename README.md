@@ -24,7 +24,7 @@ Main features of the NLP library spaCy
 > pip install --no-build-isolation --editable . 		# compile and install spaCy
 ```
 
-Пакет, на котором специализируется данный скрипт - __<span style="color:blue"> ru_core_news_md </span>__.
+Пакет, на котором специализируется данный скрипт - __ru_core_news_md__.
 Для того, чтобы загрузить пакет достаточно выполнить следующую команду: 
 ```console
 > python -m spacy download ru_core_news_md
@@ -34,7 +34,11 @@ Main features of the NLP library spaCy
 ```console
 D:\Projects\PycharmProjects\spaCyFeatures>main.py 1
 ```
-Более подробная информация об аргументе: 
+Аргумент может принимать одно из следующих значений:
 ```console
-D:\Projects\PycharmProjects\spaCyFeatures>main.py -h
+0 - Displaying information about tokens, 
+1 - Vector representation of text tokens, 
+2 - Search for text by pattern, 
+3 - Identifying the token and assigning the provided attributes to it, 
+4 - Named Entity Recognition.
 ```
